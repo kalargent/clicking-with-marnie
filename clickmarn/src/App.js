@@ -8,8 +8,18 @@ import pics from "./pics.json";
 class App extends React.Component {
   // Setting this.state.friends to the friends json array
   state = {
+    // cards, 
     pics
   };
+
+  // SHUFFLE CARDS ON CLICK 
+  shuffle = id => {
+    this.setState({
+      cards: this.state.cards.sort (function (a,b) {
+        return 0.5 - Math.random(); 
+      })
+    })
+  }
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {

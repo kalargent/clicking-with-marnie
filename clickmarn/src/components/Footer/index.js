@@ -10,7 +10,7 @@ function Footer () {
         <div className="footer-copyright">
           <div className="container">
           Copyright © 2019 by Karen Largent 
-          <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+
           </div>
         </div>
       </footer>
