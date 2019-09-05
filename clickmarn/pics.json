@@ -1,0 +1,38 @@
+  [
+  {
+    "id": 1,
+    "name": "Twitter",
+    "image":
+      "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjvtqnRhbrkAhUHnFkKHegxCEMQjRx6BAgBEAQ&url=https%3A%2F%2Fseeklogo.com%2Fvector-logo%2F291999%2Ftwitter-icon-square&psig=AOvVaw21y_rN2i5nnTGNyVgq5yL2&ust=1567785314245116"
+  }, 
+  {
+    "id": 2,
+    "name": "Insta",
+    "image":
+      "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi3gInjhbrkAhUQw1kKHQBGDNkQjRx6BAgBEAQ&url=https%3A%2F%2Fblog.designcrowd.com%2Farticle%2F1056%2F35-famous-square-logos-from-big-brands-in-2018&psig=AOvVaw21y_rN2i5nnTGNyVgq5yL2&ust=1567785314245116"
+  }, 
+  {
+    "id": 3,
+    "name": "Linked",
+    "image":
+      "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjS5N39hbrkAhWFmOAKHUtUAGgQjRx6BAgBEAQ&url=https%3A%2F%2Flogodix.com%2Flinkedin-square&psig=AOvVaw21y_rN2i5nnTGNyVgq5yL2&ust=1567785314245116"
+  }, 
+  {
+    "id": 4,
+    "name": "Facebook",
+    "image":
+      "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiPzcW-hrrkAhVShuAKHZbfCOoQjRx6BAgBEAQ&url=http%3A%2F%2Fwww.vectorico.com%2Ffacebook-logo-square%2F&psig=AOvVaw21y_rN2i5nnTGNyVgq5yL2&ust=1567785314245116"
+  }, 
+  {
+    "id": 5,
+    "name": "Uber",
+    "image":
+      "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiPh4DRhrrkAhXsTN8KHUpIDNMQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.designindaba.com%2Fprofiles%2Fuber&psig=AOvVaw21y_rN2i5nnTGNyVgq5yL2&ust=1567785314245116"
+  }, 
+  {
+    "id": 6,
+    "name": "Github",
+    "image":
+      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fsmallimg.pngkey.com%2Fpng%2Fsmall%2F442-4423783_twitter-logo-linkedin-logo-github-logo-github-square.png&imgrefurl=https%3A%2F%2Fwww.pngkey.com%2Fpngs%2Fgithub-logo%2F&docid=SxrH12xPvipfqM&tbnid=uldiJk83-udsoM%3A&vet=12ahUKEwir56PMhrrkAhULZN8KHeCiDAk4ZBAzKA0wDXoECAEQDw..i&w=300&h=300&bih=858&biw=1748&q=square%20logos%20300x300&ved=2ahUKEwir56PMhrrkAhULZN8KHeCiDAk4ZBAzKA0wDXoECAEQDw&iact=mrc&uact=8"
+  } 
+]

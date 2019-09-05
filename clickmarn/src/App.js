@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Section from "./components/Main"
+import Main from "./components/Main"
 
 const styles = {
   container: {
@@ -16,7 +16,7 @@ function App() {
       </div>
 
       <div className="main">
-        <Section /> 
+        <Main /> 
       </div>
     </div>
   );
