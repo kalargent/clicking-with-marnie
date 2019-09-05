@@ -4,7 +4,7 @@ import "./style.css";
 function Cards(props) {
   return (
   
-      <div className="card blue-grey darken-1">
+      <div className="card">
         <div className="img-container">
           <img alt={props.name} src={props.image} />
         </div>

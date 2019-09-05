@@ -21,7 +21,7 @@ class App extends React.Component {
   render() {
     return (
       <Wrapper>
-        <div className="container">
+        {/* <div className="container"> */}
           {this.state.pics.map(pic => (
             <Cards
               // removeFriend={this.removeFriend}
@@ -30,7 +30,7 @@ class App extends React.Component {
               image={pic.image}
             />
           ))}
-        </div>
+        {/* </div> */}
       </Wrapper>
     );
   }
