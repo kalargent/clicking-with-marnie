@@ -1,18 +1,23 @@
 .card {
-    width: 125px; 
-    height: 125px; 
-    background: #c5cae9; 
+    width: 150px; 
+    height: 150px; 
+    background: #c88689; 
     padding: 10px;  
-    margin-bottom: 10px; 
+    margin: 30px; 
     border-radius: 15px;
+    display: inline-block; 
 } 
+
+.card:hover{
+    box-shadow: -1px 10px 29px 0px rgba(0,0,0,0.8);
+  }
 
 .card > .img-container {
     height: 100%;
     overflow: hidden;
     text-align: center;
     background:#6CADDC;
-    border-radius: 15px
+    border-radius: 15px; 
   }
   .card > .img-container > img {
     width: 100%

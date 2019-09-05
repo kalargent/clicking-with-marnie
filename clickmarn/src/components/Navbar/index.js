@@ -5,7 +5,7 @@ function Navbar() {
       <div className="navbar-fixed">
       <nav>
         <div className="nav-wrapper">
-          <a href="#!" className="brand-logo">Logo</a>
+          <a href="#!" className="brand-logo center">Octocat Click Game!</a>
         </div>
       </nav>
     </div>
