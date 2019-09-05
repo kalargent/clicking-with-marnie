@@ -16,7 +16,7 @@ class App extends React.Component {
   // SHUFFLE CARDS ON CLICK
   shuffle = id => {
     this.setState({
-      cards: this.state.cards.sort(function(a, b) {
+      pics: this.state.pics.sort(function(a, b) {
         return 0.5 - Math.random();
       })
     });
@@ -37,7 +37,7 @@ class App extends React.Component {
 
             <div className="col s9">
             {this.state.pics.map(pic => (
-              <Cards id={pic.id} key={pic.id} image={pic.image} />
+              <Cards id={pic.id} key={pic.id} image={pic.image} shuffle={this.shuffle} />
             ))}
             </div>
 
