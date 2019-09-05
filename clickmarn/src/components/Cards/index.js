@@ -3,7 +3,7 @@ import "./style.css";
 
 function Cards(props) {
   return (
-  
+    <div className="container">
       <div className="card">
         <div className="img-container">
           <img alt={props.name} src={props.image} />
@@ -13,7 +13,7 @@ function Cards(props) {
           𝘅
         </span>
       </div>
-
+    </div>
   );
 }
 
