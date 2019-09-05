@@ -3,7 +3,8 @@
     height: 125px; 
     background: #c5cae9; 
     padding: 10px;  
-    margin: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 15px;
 } 
 
 .card > .img-container {
@@ -11,6 +12,7 @@
     overflow: hidden;
     text-align: center;
     background:#6CADDC;
+    border-radius: 15px
   }
   .card > .img-container > img {
     width: 100%

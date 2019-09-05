@@ -3,17 +3,13 @@ import "./style.css";
 
 function Cards(props) {
   return (
-    <div className="container">
-      <div className="card">
+    
+      <div className="card" onClick = {() => {console.log("i clicked octocat")}}>
         <div className="img-container">
           <img alt={props.name} src={props.image} />
         </div>
-
-        <span onClick={() => props.removePic(props.id)} className="remove">
-          𝘅
-        </span>
       </div>
-    </div>
+    
   );
 }
 
