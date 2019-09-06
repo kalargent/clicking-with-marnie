@@ -3,7 +3,7 @@ import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
-// import Scores from "./components/Scores"; 
+import Scores from "./components/Scores"; 
 import pics from "./pics.json";
 
 class App extends React.Component {
@@ -32,7 +32,7 @@ class App extends React.Component {
     let selected = this.state.id;
     
     if (selected.indexOf(id) === -1) {
-      
+
     }
 
     // check if selected image id is already in an array on the state 
@@ -60,9 +60,12 @@ class App extends React.Component {
 
         <div className="container">
           <div className="row">
+            
+          </div>
+          <div className="row">
 
             <div className="col s3">
-              {/* <Scores />  */}
+              <Scores /> 
             </div>
 
             <div className="col s9">
