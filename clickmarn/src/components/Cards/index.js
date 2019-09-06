@@ -3,13 +3,18 @@ import "./style.css";
 
 function Cards(props) {
   return (
-    
-      <div className="card" onClick = {() => {console.log("i clicked octocat"); props.shuffle(props.id)}}>
-        <div className="img-container">
-          <img alt={props.name} src={props.image} />
-        </div>
+    <div
+      className="card"
+      onClick={() => {
+        console.log("i clicked octocat");
+        props.selectImg(props.id);
+        props.shuffle(props.id);
+      }}
+    >
+      <div className="img-container">
+        <img alt={props.name} src={props.image} />
       </div>
-    
+    </div>
   );
 }
 
