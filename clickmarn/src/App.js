@@ -9,8 +9,10 @@ import pics from "./pics.json";
 class App extends React.Component {
   // Setting this.state.friends to the friends json array
   state = {
-    // cards,
-    pics
+    pics,
+    selected:[], 
+    score:0, 
+    topscore:0, 
   };
 
   // SHUFFLE CARDS ON CLICK
@@ -22,7 +24,25 @@ class App extends React.Component {
     });
   };
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  // ADD AN ITEM TO A LIST OF SELECTED ITEMS 
+  // start a function called selected items 
+
+  // console.log to make sure it is being accessed 
+
+  // check if selected image id is already in an array on the state 
+  
+  // if it is in the array, go to the end game function 
+
+  // if it's not, then increment the score state
+  // compare that state to the top score to see if that needs to be updated 
+
+  // call shuffle here instead of on the click? 
+
+  // END GAME 
+  // reset the game state so that current score is zero
+  // clear the array of selected items 
+
+  // Map over this.state.pics and render a Card component for each pic object
   render() {
     return (
       <Wrapper>
