@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 import Scores from "./components/Scores"; 
+import Jumbotron from "./components/Jumbotron"; 
 import pics from "./pics.json";
 
 class App extends React.Component {
@@ -60,7 +61,8 @@ class App extends React.Component {
 
         <div className="container">
           <div className="row">
-            
+            <Jumbotron />
+
           </div>
           <div className="row">
 
