@@ -26,10 +26,18 @@ class App extends React.Component {
 
   // ADD AN ITEM TO A LIST OF SELECTED ITEMS 
   // start a function called selected items 
+  selectImg = (id) => {
+    // console.log to make sure it is being accessed 
+    console.log(id + " was clicked"); 
+    let selected = this.state.id;
+    
+    if (selected.indexOf(id) === -1) {
+      
+    }
 
-  // console.log to make sure it is being accessed 
+    // check if selected image id is already in an array on the state 
 
-  // check if selected image id is already in an array on the state 
+    
   
   // if it is in the array, go to the end game function 
 
@@ -37,6 +45,8 @@ class App extends React.Component {
   // compare that state to the top score to see if that needs to be updated 
 
   // call shuffle here instead of on the click? 
+  }
+
 
   // END GAME 
   // reset the game state so that current score is zero
