@@ -1,6 +1,6 @@
 import React from "react";
 import Wrapper from "./components/Wrapper";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 import Scores from "./components/Scores";
@@ -41,8 +41,14 @@ class App extends React.Component {
         selected: selected, 
         score: this.state.score + 1,
         topscore: this.state.score + 1 > this.state.topscore ? this.state.score + 1 : this.state.topscore
-      })
-    }
+      }); if (this.topscore === 12) {
+        this.setState({
+          score: 0,
+          selected: [],
+        })
+        alert("You win! Good memory!"); 
+      }
+    } 
     // if it is in the array, reset the game
     else {
       this.setState({
