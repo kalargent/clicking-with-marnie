@@ -37,20 +37,28 @@ class App extends React.Component {
         // if it's not, then increment the score state
         // compare that state to the top score to see if that needs to be updated
         selected.push(id); 
+        var newScore = this.state.score + 1; 
       this.setState({
         selected: selected, 
-        score: this.state.score + 1,
-        topscore: this.state.score + 1 > this.state.topscore ? this.state.score + 1 : this.state.topscore
+        score: newScore,
+        topscore: newScore > this.state.topscore ? newScore : this.state.topscore
       })
+      if (newScore === 12) {
+        this.setState({
+          score: 0,
+          selected: [],
+        })
+        alert("You Win! Play Again!");
+      }
     } 
-    else if (this.state.score === 12) {
-      this.setState({
-        score: 0,
-        selected: [],
-      })
-      alert("You Win! Play Again!");
+    // else if (this.state.score === 12) {
+    //   this.setState({
+    //     score: 0,
+    //     selected: [],
+    //   })
+    //   alert("You Win! Play Again!");
 
-    }
+    // }
     // if it is in the array, reset the game
     else {
       this.setState({
