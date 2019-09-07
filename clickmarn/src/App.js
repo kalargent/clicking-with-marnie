@@ -33,7 +33,7 @@ class App extends React.Component {
     let selected = this.state.selected;
 
     // check if selected image id is already in an array on the state
-    if (selected.indexOf(id) === -1) {
+    if (selected.indexOf(id) === -1 && this.state.score < 12) {
         // if it's not, then increment the score state
         // compare that state to the top score to see if that needs to be updated
         selected.push(id); 
@@ -41,14 +41,16 @@ class App extends React.Component {
         selected: selected, 
         score: this.state.score + 1,
         topscore: this.state.score + 1 > this.state.topscore ? this.state.score + 1 : this.state.topscore
-      }); if (this.topscore === 12) {
-        this.setState({
-          score: 0,
-          selected: [],
-        })
-        alert("You win! Good memory!"); 
-      }
+      })
     } 
+    else if (this.state.score === 12) {
+      this.setState({
+        score: 0,
+        selected: [],
+      })
+      alert("You Win! Play Again!");
+
+    }
     // if it is in the array, reset the game
     else {
       this.setState({
