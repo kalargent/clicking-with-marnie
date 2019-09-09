@@ -1,4 +1,39 @@
 .score-panel {
-    background: #AC5C52; 
-}
+    margin-top: 30px; 
+    padding: '150px';     
+    /* box-shadow: "5px 20px 5px 20px rgba(0,0,0,0)";  */
+    background: #88AE7D;
+    border-radius: 15px; 
+    /* font-family: 'Luckiest Guy', cursive;
+    color: white;  */ 
+    /* border-style: solid;
+    border-color: #DD8A23; 
+    border-width: 5px;  */
+  }
+
+  h4{
+    font-family: 'Luckiest Guy', cursive;
+    color: white; 
+    font-size: 30px;
+    text-align: center; 
+    padding: 10px; 
+  }
+
+  .current-score {
+    font-family: 'Cabin', sans-serif;
+    color: white; 
+    font-size: 20px;
+    text-align: center; 
+    padding: 10px;
+    font-weight: bold
+  }
+
+  .top-score {
+    font-family: 'Cabin', sans-serif;
+    color: white; 
+    font-size: 20px;
+    text-align: center; 
+    padding: 10px;
+    font-weight: bold
+  }
 

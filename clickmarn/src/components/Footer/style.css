@@ -1,10 +1,16 @@
 
-  body {
+  /* body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background: #86AB7C; 
   }
 
   main {
     flex: 1 0 auto;
+  } */
+
+  .page-footer {
+    background: #86AB7C;
   }
+

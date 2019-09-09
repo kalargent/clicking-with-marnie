@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Scores from "./components/Scores";
 import Jumbotron from "./components/Jumbotron";
 import pics from "./pics.json";
+import "./App.css"; 
 
 class App extends React.Component {
   // Setting this.state.friends to the friends json array
