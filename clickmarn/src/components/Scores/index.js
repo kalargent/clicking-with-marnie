@@ -7,13 +7,13 @@ function Scores(props) {
       <h4>Scores</h4>
       <span className="current-score">
           Score: <span>{props.score}</span>
-          <br></br>
+          
       </span>
+      <br></br>
       
       <span className="top-score">
           Top Score: <span>{props.topscore}</span>
-          <br></br>
-          <br></br>
+          
       </span>
     </div>
   );
