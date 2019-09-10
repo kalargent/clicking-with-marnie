@@ -1,56 +1,68 @@
-# Octocat Memory Game 
----------------
-## Table of Contents
-1. [Abstract](#abstract)
-2. [Coding Overview](#overview)
-3. [Features](#Features)
-4. [Backlog](#Backlog)
-5. [My Role](#Myrole)
-6. [Shout Outs](#ShoutOuts)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<a name="abstract"></a>
-## Abstract
-The Octocat Memory Game is a challenging memory game designed to showcase my new-found React skills. To win, click each image only once! Good Luck! 
+## Available Scripts
 
+In the project directory, you can run:
 
-AWS: http://kal-octocat-game.s3-website-us-east-1.amazonaws.com/
+### `npm start`
 
-<a name="overview"></a>
-## Coding Overview
-The application is built with [Create React App](https://github.com/facebook/create-react-app). 
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Also notable, I used a new library, Materialize, instead of my old standby, bootstrap. 
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-<a name="Features"></a>
-## Features 
-The app has the following features: 
-* Entire UI built and styled using React components.
-* Displays 12 images sourced from a JSON file. 
-    * Tracks which images the user clicks to determine if the image was clicked previously in the game. 
-    * If the user clicks the same image a second time in the game, they are alerted, and the game resets. 
-    * If the user successfully clicks all 12 images without duplication, they are alerted and the game resets. 
-* Current Score and overall Top Score are calculated as the user plays the game. 
+### `npm test`
 
-<a name="Backlog"></a>
-## Backlog
-At this time, there are no items in the backlog for this game. 
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<a name="Myrole"></a>
-## My Role 
+### `npm run build`
 
-I coded all aspects of this app, including the custom CSS, using the following as a guide: 
-* Class Activities 
-* https://github.com/GrissomErick/Clicky-Game
-* https://github.com/maddiedeming/clicky-game
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<a name="ShoutOuts"></a>
-## Shout Outs 
-Coding is a social activity, and no one can do it alone. The following people helped me get through this homework:
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-* My TA's and instructor.
-* My husband and peers who spent countless hours pair programming with me, answering questions, and helping me debug.
-* Class resources.
-* Myself. Because I keep on going without giving up.
- 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
